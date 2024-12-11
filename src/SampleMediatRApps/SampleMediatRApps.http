@@ -1,0 +1,12 @@
+@SampleMediatRApps_HostAddress = http://localhost:5073
+
+POST {{SampleMediatRApps_HostAddress}}/carts/items/
+Content-Type: application/json
+
+{
+  "cartId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "quantity": 1
+}
+
+###
